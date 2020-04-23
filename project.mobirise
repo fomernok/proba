@@ -1,0 +1,137 @@
+{
+  "settings": {
+    "name": "Site-06-06_1554",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise-amp",
+      "title": "Mobirise AMP",
+      "styling": {
+        "primaryColor": "#7ae6ff",
+        "secondaryColor": "#4addff",
+        "successColor": "#0dcd7b",
+        "infoColor": "#8282e7",
+        "warningColor": "#767676",
+        "dangerColor": "#cccccc",
+        "mainFont": "Roboto",
+        "display1Font": "Roboto",
+        "display1Size": 4.5,
+        "display2Font": "Roboto",
+        "display2Size": 2.2,
+        "display5Font": "Roboto",
+        "display5Size": 1.8,
+        "display7Font": "Roboto",
+        "display7Size": 1.1,
+        "display4Font": "Roboto",
+        "display4Size": 0.9,
+        "isRoundedButtons": false,
+        "isScrollToTopButton": false,
+        "arrowColor": "#4ea2e3"
+      },
+      "additionalSetColors": [
+        "#15181b",
+        "#212529"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "siteFonts": [],
+    "versionFirst": "4.7.7",
+    "uniqCompNum": 30,
+    "versionPublish": "4.10.6",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            }
+          },
+          "_name": "header1",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#0dd1ff\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h1 class=\"mbr-section-title mbr-fonts-style align-right mbr-bold mbr-white\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n            <b>KONFERENCIA</b></h1>\n        <h3 class=\"mbr-section-subtitle mbr-fonts-style align-right mbr-white mbr-light\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubTitle\">Versenypiaci, meghívásos, tárgyalásos, hirdetményes közbeszerzési és/vagy EU támogatással tervezett projektek ajánlati költségvetéseinek objektív internetes <b>ÁRKOCKÁZAT</b> elemzése az adott iparág aktuális piaci áraihoz képest, az üzleti titok megtartásával</h3>\n        <p class=\"mbr-fonts-style mbr-text align-right\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-if=\"showText\">\n            Full width intro with adjustable height, background image. Click any text to edit or style it.\n        </p>\n        <div class=\"mbr-section-btn align-right\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://eccbudapest.hu\" data-app-placeholder=\"Type Text\">\n                2019.november 20.kedd 11-13 óra&nbsp;</a></div>\n    </div>\n\n</section>",
+          "_cid": "re0ESryBVp",
+          "_anchor": "header1-q",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "margin-bottom": "0"
+            },
+            ".mbr-section-title": {
+              "margin": "0"
+            }
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"content2 mbr-section article\" plugins=\"amp-main\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8\">\n                <h3 class=\"mbr-fonts-style mbr-section-title mbr-light\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\">Helyszín : Európa Center Budapest<br>www.eccbudapest.hu</h3>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><b>Tisztelt Kolléga ! Közbeszerzési szakembereknek szóló konferenciánkat 1 órás módszertani előadással kezdjük, melyet 2 órás konzultáció követ. Az előadás a közbeszerzési projektek árát megalapozó költségvetés internetes árkockázat elemzéséről, az aktuális piaci ártól való eltérés szabadalmazott számítási módszeréről szól. Az interneten az iparági órabéreket, valorizációs árindexeket, ipari normákat tartalmazó nyilvános állami adatbázisokon túl jelenleg több mint 21.000 gyártó,forgalmazó,szolgáltató,kivitelező 22 milliót meghaladó termékének,szolgáltatásának ára ill. ipari árjegyzéke érhető el.</b><br><br><b>Jelentkezni 2019.február 28-ig lehet elektronikus levélben, a résztvevő nevének, elérhetőségének, autójának rendszámával és a számla befogadó adataival lehet. A részvételi díj &nbsp;személyenként 40.000 Ft. A befogadott jelentkezőknek visszaigazolást és számlát küldünk, csak az vehet részt &nbsp;konferencián, akit befogadtunk és a részvételi díjat 2019. március 30-ig befizeti. A résztvevők számától függően bérelünk előadótermet, ingyenes parkolással és minden pályaudvartól metróval megközelíthető helyen, erről a résztvevőket megfelelő időben tájékoztatjuk. A részvételi díj tartalmazza levelünk mellékletében elküldött excel formátumban elkészített beárazott, korábban megvalósult projekt árát megalapozó tételes beárazott költségvetés internetes árkockázati analízisét. Az excel fájlt 2019. április 10-ig kell email címünkre mellékletként visszaküldeni. Az eredményt a jogosultnak személyesen adjuk át a konferencián, üzleti titok nem kerül nyilvánosságra, a beérkezett fájlokat töröljük. Műszaki segédlet a levél végén olvasható, írásbeli segítséget csak a konferenciára befogadott és a számlát kifizetett személyeknek nyújtunk.</b><br><br><b>Üdvözlettel : Árszakértő Konzorcium</b><br><b>Email : arszakerto.konzorcium@gmail.com</b><br><br><b>Műszaki segédlet</b><br><b>Szíveskedjen saját számítógépére letölteni a levél mellékletéből a referencia.xlsx fájlt, melyet nevezzen át a projekt nevére utaló azonosítóra. MS Office/Excel, Libreoffice/Táblázatok vagy Goggle Drive/Táblázatok programjával töltse ki a munkafüzetet. Minden munkalap első sorát és az .xlsx fájl szerkezetét tilos megváltoztatni, ez a későbbi internetes .xml alapú feldolgozás szükséges követelménye, adatokat a sárga hátterű cellákba kell begépelni. A projekt adatlap A2 cellájába szíveskedjen a projekt 10 karakteres elsődleges CPV főcsoport kódját az alábbi lehetőségek közül választva beírni.</b><br><br><b>03000000-1 Növénytermesztési, állattenyésztési, halászati, erdészeti és kapcsolódó termékek.\n<br>09000000-3 Kőolajtermékek, tüzelőanyagok, villamos energia és egyéb energiaforrások.\n<br>14000000-1 Bányászat, alapfémek és kapcsolódó termékek.\n<br>15000000-8 Élelmiszerek, italok, dohány és kapcsolódó termékek.\n<br>16000000-5 Mezőgazdasági gépek.\n<br>18000000-9 Ruházat, lábbeli, bőröndök és utazótáskák és kiegészítők.\n<br>19000000-6 Bőr és textilszövetek, műanyag és gumi.\n<br>22000000-0 Nyomtatott anyagok és kapcsolódó termékek.\n<br>24000000-4 Vegyipari termékek.\n<br>30000000-9 Irodai és számítástechnikai gépek, berendezések és kellékek, a bútorzat és a szoftvercsomagok kivételével.\n<br>31000000-6 Villamos gépek, készülékek, berendezések és fogyóeszközök világítás.\n<br>32000000-3 Rádiós, televíziós, hírközlési, távközlési és kapcsolódó berendezések.\n<br>33000000-0 Orvosi felszerelések, gyógyszerek és testápolási termékek.\n<br>34000000-7 Szállítófelszerelések és kiegészítő szállítási cikkek.\n<br>35000000-4 Biztonsági, tűzoltó, rendőrségi és védelmi felszerelések.\n<br>37000000-8 Hangszerek, sportfelszerelések, játékok, játékszerek, kézműves, művészeti anyagok és kiegészítők.\n<br>38000000-5 Laboratóriumi, optikai és precíziós felszerelések (kivéve szemüvegek).\n<br>39000000-2 Bútorok, lakberendezési cikkek, háztartási berendezések (kivéve világítás) és tisztító termékek.\n<br>41000000-9 Összegyűjtött és tisztított víz.\n<br>42000000-6 Ipari gépek.\n<br>43000000-3 Bányászati, kőfejtő és építőipari gépek.\n<br>44000000-0 Építkezési szerkezetek és anyagok? építkezési segédanyagok (elektromos berendezések kivételével).\n<br>45000000-7 Építési munkák.\n<br>48000000-8 Szoftvercsomag és információs rendszerek.\n<br>50000000-5 Javítási és karbantartási szolgáltatások.\n<br>51000000-9 Beszerelési szolgáltatások (kivéve szoftverek).\n<br>55000000-0 Szállodaipari, éttermi és kiskereskedelmi szolgáltatások.\n<br>60000000-8 Szállítási szolgáltatások (kivéve szemétszállítás).\n<br>63000000-9 Szállítást támogató és kiegészítő szolgáltatások? utazási irodai szolgáltatások.\n<br>64000000-6 Postai és távközlési szolgáltatások.\n<br>65000000-3 Közművek, közhasznú szolgáltatások.\n<br>66000000-0 Pénzügyi és biztosítási szolgáltatások.\n<br>70000000-1 Ingatlannal kapcsolatos szolgáltatások.\n<br>71000000-8 Építészeti, építési, mérnöki és vizsgálati szolgáltatások.\n<br>72000000-5 IT-szolgáltatások: tanácsadás, szoftverfejlesztés, internet és támogatás.\n<br>73000000-2 Kutatási és fejlesztési szolgáltatások és kapcsolódó tanácsadói szolgáltatások.\n<br>75000000-6 Közigazgatási, honvédelmi és társadalombiztosítási szolgáltatások.\n<br>76000000-3 Olaj- és gáziparral kapcsolatos szolgáltatások.\n<br>77000000-0 Mezőgazdasági, erdészeti, kertészeti, méhészeti és akvakultúrával kapcsolatos szolgáltatások.\n<br>79000000-4 Üzleti szolgáltatások: jog, marketing, tanácsadás, munkaerő-felvétel, nyomtatás és biztonság.\n<br>80000000-4 Oktatási és képzési szolgáltatások.\n<br>85000000-9 Egészségügyi és szociális gondozási szolgáltatások.\n<br>90000000-7 Szennyvíz- és hulladéktisztítási és környezetvédelmi szolgáltatások.\n<br>92000000-1 Szolgáltatások a pihenés, kultúra és sport területén.\n<br>98000000-3 Egyéb közösségi, szociális és személyi szolgáltatások.</b><br><br><br><b><br></b></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "re0FBcpkzg",
+          "_anchor": "content2-s",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "title": "Page 1",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"mbr-section content5\" plugins=\"amp-main\" group=\"Article\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://www.engy.hu\" data-app-placeholder=\"Type Text\" target=\"_blank\">Budapest</a></div>\n    </div>\n</section>",
+          "_cid": "r70IPzzNnK",
+          "_anchor": "content5-o",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"mbr-section content5\" plugins=\"amp-main\" group=\"Article\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://www.index.hu\" data-app-placeholder=\"Type Text\" target=\"_blank\">Baranya</a></div>\n    </div>\n</section>",
+          "_cid": "r70Jrkzj2p",
+          "_anchor": "content5-p",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
